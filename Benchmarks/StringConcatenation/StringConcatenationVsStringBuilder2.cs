@@ -3,7 +3,6 @@ using BenchmarkDotNet.Attributes;
 
 namespace Benchmarks.StringConcatenation;
 
-[MemoryDiagnoser]
 public class StringConcatenationVsStringBuilder2 : IBenchmark
 {
 	public static string Title => "String concatenation compared to string builder used in a loop with strings of different lengths";

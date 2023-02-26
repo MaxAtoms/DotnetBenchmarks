@@ -38,8 +38,8 @@ Intel Core i5-8350U CPU 1.70GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical c
   DefaultJob : .NET 7.0.2 (7.0.223.10501), X64 RyuJIT AVX2
 
 
-              Method |     Mean |   Error |  StdDev |
--------------------- |---------:|--------:|--------:|
-       StringBuilder | 187.6 ns | 3.79 ns | 6.54 ns |
- StringConcatenation | 115.6 ns | 2.15 ns | 1.90 ns |
+              Method |     Mean |   Error |   StdDev |   Median |   Gen0 | Allocated |
+-------------------- |---------:|--------:|---------:|---------:|-------:|----------:|
+       StringBuilder | 213.5 ns | 6.99 ns | 20.07 ns | 208.0 ns | 0.1452 |     456 B |
+ StringConcatenation | 125.9 ns | 2.47 ns |  2.94 ns | 125.2 ns | 0.0663 |     208 B |
 ```

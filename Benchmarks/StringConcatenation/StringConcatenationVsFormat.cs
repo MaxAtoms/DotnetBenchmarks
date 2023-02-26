@@ -5,7 +5,6 @@ namespace Benchmarks.StringConcatenation;
 /// <summary>
 ///		String concatenation vs. string.Format() 
 /// </summary>
-[MemoryDiagnoser]
 public class StringConcatenationVsFormat : IBenchmark
 {
 	public static string Title => "String concatenation compared to string format";
