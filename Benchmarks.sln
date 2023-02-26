@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{B4198E1F-7AD2-41A6-9D49-AE85316E79C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkTui", "BenchmarkTui\BenchmarkTui.csproj", "{74B4E94B-DCA2-4DCC-BBE0-8C327E631A19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4198E1F-7AD2-41A6-9D49-AE85316E79C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4198E1F-7AD2-41A6-9D49-AE85316E79C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4198E1F-7AD2-41A6-9D49-AE85316E79C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4198E1F-7AD2-41A6-9D49-AE85316E79C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B4E94B-DCA2-4DCC-BBE0-8C327E631A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B4E94B-DCA2-4DCC-BBE0-8C327E631A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B4E94B-DCA2-4DCC-BBE0-8C327E631A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B4E94B-DCA2-4DCC-BBE0-8C327E631A19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
